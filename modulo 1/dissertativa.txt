@@ -1,0 +1,18 @@
+
+1. **Entrada de Dados**: 
+   - Receba o número \( n \) para o qual deseja-se calcular \( 9 \times n \).
+
+2. **Processamento**: 
+   - Para calcular \( 9 \times n \), realizamos os seguintes passos:
+     - O primeiro dígito do resultado é \( digito1 = n - 1 \).
+     - O segundo dígito do resultado é \( digito2 = 10 - n \).
+     - O resultado final é obtido multiplicando o primeiro dígito por 10 (para gerar a dezena) e somando com o segundo dígito (a unidade). Isso pode ser descrito como:  
+       \( resultado = digito1 \times 10 + digito2 \).
+
+3. **Saída de Dados**:
+   - Exiba o resultado do cálculo para \( 9 \times n \).
+
+Por exemplo, se \( n = 7 \):
+- \( digito1 = 7 - 1 = 6 \),
+- \( digito2 = 10 - 7 = 3 \),
+- O resultado será \( 6 \times 10 + 3 = 63 \).

@@ -1,0 +1,11 @@
+ // Passo 1: Receber a entrada do usuário
+    LEIA n
+    
+    // Passo 2: Processamento
+    digito1 = n - 1
+    digito2 = 10 - n
+    resultado = digito1 * 10 + digito2
+    
+    // Passo 3: Exibir o resultado
+    ESCREVA "O resultado de 9 x", n, "é", resultado
+Fim
